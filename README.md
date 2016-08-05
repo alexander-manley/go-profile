@@ -1,6 +1,8 @@
 # go-profile
 Profiling tools and methods for Go
 
+Commercial tool: http://backtrace.io/
+
 go tool pprof uses --inuse_space by default. It samples memory usage so the result is subset of real one.
 By --alloc_space pprof returns all alloced memory since program started.
 
